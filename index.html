@@ -123,7 +123,7 @@
                                
                                 
                             </div>
-                            <img src="images/image-6.png" style="width:200px;height:200px;margin-left:400px;margin-top:-900px;">
+                            <img id = "girl" src="images/image-6.png">
                         </div>
                         
                         <style>
@@ -217,6 +217,13 @@
 	margin-top: -600px;
 	margin-left: -20px;
 }
+#girl{
+    width:200px;
+    height:200px;
+    margin-left:400px;
+    margin-top:-900px;
+
+}
 
 #lamp:hover~#light {
 	-webkit-animation: lightout 0.5s 1;
@@ -270,13 +277,69 @@
 		border-bottom-color: transparent;
 	}
 }
+@media only screen and (max-width: 1200px) {
+    #light{
+        margin-left:-110px;
+    }
+    #girl{
+        margin-left: 300px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    #light{
+        margin-left:-208px;
+    }
+   
+}
+@media only screen and (max-width: 800px) {
+    #light{
+        margin-left:-280px;
+    }
+    #girl{
+       margin-left:100px;
+    }
+   
+}
+@media only screen and (max-width: 700px) {
+    #light{
+        margin-left:-300px;
+    }
+}
+@media only screen and (max-width: 600px) {
+    #light{
+        margin-left:-310px;
+    }
+}
+@media only screen and (max-width: 500px) {
+    #light{
+        margin-left:-210px;
+       
+    }
+    /* #girl{
+       margin-left:-50px;
+    } */
+   #wrapper{
+       margin-left:-200px;
+   }
+   .home-content__buttons{
+       width:300px;
+   }
+   #welcome{
+       width:300px;
+   }
+   #az{
+       width:300px;
+   }
+   
+}
+
                         </style>
 
                     
 
-                <h3>Welcome to my Portfolio</h3>
+                <h3 id = "welcome">Welcome to my Portfolio</h3>
 
-                <h1>
+                <h1 id="az">
                    Anastasiia Zhemaitite<br>
                      
                     Web Developer <br>
@@ -284,10 +347,10 @@
                 </h1>
 
                 <div class="home-content__buttons">
-                    <a href="#contact" class="smoothscroll btn btn--stroke">
+                    <a href="#contact" id = "start" class="smoothscroll btn btn--stroke">
                         Start a Project
                     </a>
-                    <a href="#about" class="smoothscroll btn btn--stroke">
+                    <a href="#about"  id = " more" class="smoothscroll btn btn--stroke">
                         More About Me
                     </a>
                 </div>
@@ -331,8 +394,8 @@
 
         <div class="row section-header has-bottom-sep" data-aos="fade-up">
             <div class="col-full">
-                <h3 class="subhead subhead--dark">Hello There,</h3>
-                <h1 class="display-1 display-1--light">my name is Anastasiia. </h1>
+                <h3 class="subhead subhead--dark">About me</h3>
+                <h1 class="display-1 display-1--light">Hello there, </h1>
             </div>
         </div> <!-- end section-header -->
 
@@ -361,7 +424,7 @@
                 <h5>Hours of Coding</h5>
             </div>
             <div class="col-block stats__col">
-                <div class="stats__count">25</div>
+                <div class="stats__count">29</div>
                 <h5>Projects Completed</h5>
             </div>
             <div class="col-block stats__col">
