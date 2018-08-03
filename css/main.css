@@ -2458,20 +2458,17 @@ html.no-csstransitions .home-content__main {
 /* ------------------------------------------------------------------- 
  * ## bricks/masonry
  * ------------------------------------------------------------------- */
-.masonry:after {
+/* .masonry:after {
     content: "";
     display: table;
     clear: both;
-}
+} */
 
 .masonry .grid-sizer, .masonry__brick {
     width: 50%;
 }
 
-.masonry__brick {
-    float: left;
-    padding: 0;
-}
+
 
 .item-folio {
     position: relative;
