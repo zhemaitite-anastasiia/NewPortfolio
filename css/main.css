@@ -1734,6 +1734,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding-bottom: 15.6rem;
     position: relative;
     overflow: hidden;
+    
 }
 
 .home-content h3 {
