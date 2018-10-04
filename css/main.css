@@ -2153,7 +2153,7 @@ html.no-csstransitions .home-content__main {
     background-color: #39b54a;
     color: #010507;
     position: relative;
-    padding-left: 20rem;
+   
 }
 
 .s-about .section-header.has-bottom-sep::before {
@@ -2324,7 +2324,7 @@ html.no-csstransitions .home-content__main {
     background-color: #FFFFFF;
     color: #757575;
     position: relative;
-    padding-left: 20rem;
+    
 }
 
 
